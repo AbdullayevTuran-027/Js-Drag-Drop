@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #1f5fc9;
+    display: flex;
+    justify-content: center;
+    img{
+        height: 50px;
+        background-color: whitesmoke;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+    .todo-wrap{
+        margin-top: 5%;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        max-width: 30%;
+        padding: 15px 10px 15px 10px;
+
+        .form-wrap{
+            padding-bottom: 40px;
+            padding-left: 5px;
+            padding-right: 5px;
+            form{
+                input{
+                    background-color: whitesmoke;
+                    height: 40px;
+                    width: 280px;
+                    padding: 15px;
+                    border-radius: 5px;
+                    border-width: 1px;
+                    border-style: solid;
+                }
+                button{
+                    margin-left: 10px;
+                    border: 0px;
+                    color: white;
+                    height: 40px;
+                    width: 70px;
+                    border-radius: 5px;
+                    background-color: #1f5fc9;
+                    font-size: 15px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .task-1{
+            background-color: #c4e0e0;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 1px;
+            height: 45px;
+            padding: 10px 10px;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .icon{
+                background-color: #1b1c97;
+                border-radius: 5px;
+                i{
+                    padding: 10px;
+                    color: rgba(245, 245, 245, 0.934);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .done-wrap{
+        margin-top: 5%;
+        margin-left: 5px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        width: 30%;
+        max-width: 28%;
+        padding: 15px 10px 15px 10px;
+        .done-tasks{
+            text-align: center;
+        }
+    }
+}
